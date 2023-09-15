@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Primary;
 public class Main {
 	public static void main(String args[]) {
 		System.out.println("Hello world2");
+		System.out.println("Iam stuffed");
 		ApplicationContext context=  SpringApplication.run(Main.class,args);
 		
 	}
